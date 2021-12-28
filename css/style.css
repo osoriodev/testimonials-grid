@@ -1,3 +1,13 @@
+/* ======== VARIABLES ======== */
+:root {
+  --clr-primary: #7541C8;
+  --clr-secondary: #48556A;
+  --clr-secondary-dk: #19212E;
+  --clr-helper: #CFCFCF;
+  --clr-helper-lt: #ECF2F8;
+  --clr-ntrl-max: #FFF;
+  --ff-primary: 'Barlow Semi Condensed', sans-serif;
+}
 /* ========== RESET ========== */
 html {
   font-size: 62.5%;
@@ -9,6 +19,7 @@ html {
   box-sizing: inherit;
 }
 body {
+  font-family: var(--ff-primary);
   font-size: 1.6rem;
 }
 ul, ol {
