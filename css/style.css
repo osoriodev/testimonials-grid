@@ -77,7 +77,8 @@ a {
   font-weight: 500;
 }
 .testimony:nth-child(1) {
-  background-color: var(--clr-primary);
+  background: url('../assets/bg-pattern-quotation.svg') top / auto no-repeat var(--clr-primary);
+  background-position-x: calc(100% - 2.4rem);
 }
 .testimony:nth-child(2) {
   background-color: var(--clr-secondary);
@@ -162,6 +163,7 @@ a {
   }
   .testimony:nth-child(1) {
     grid-area: 1 / 1 / 2 / 3;
+    background-position-x: calc(100% - 8rem);
   }
   .testimony:nth-child(3) {
     grid-area: 2 / 1 / 3 / 2;
